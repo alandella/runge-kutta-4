@@ -42,7 +42,7 @@ Contributing and redistributing the code is free!
 
 ## License
 
-This project is licensed under The GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/alandella/runge-kutta-4/blob/master/LICENSE.md) file for details.
+This project is licensed under The GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/alandella/runge-kutta-4/blob/master/LICENSE) file for details.
 
 ## Acknowledgments
 
