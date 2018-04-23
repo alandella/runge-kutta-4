@@ -14,7 +14,7 @@ void* rungekutta4_vec()
 ```
 As they are the "actual solver", almost the same as MATLAB, as the initial and final time, initial condition, and the function handle have to be provided. Some extras have been added as the separation h, or the integration step, and the dimensionality of the problem.
 
-The solver output is a txt file with vector or matrix solutions.
+The solver yields a txt file with vector or matrix output, as it can be seen in my /tests/ folder.
 
 ### Prerequisites
 
