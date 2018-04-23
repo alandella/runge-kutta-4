@@ -1,7 +1,7 @@
 /*
 	Andrea Landella
 
-	program file flowtankdyn.cpp
+	program file rungekutta4.cpp
 
 We want to solve the 1-D and DIM-D ODE equation:
 
