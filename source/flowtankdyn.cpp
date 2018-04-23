@@ -121,10 +121,10 @@ void rungekutta4(double y0, double t0, double tf, double h, double odesys(double
 	//RK4 algorithm
 	for (int j = 1; j < N; j++) {
 
-		k1 = odesys(tris[j-1]			, yris[j-1]				);
+		k1 = odesys(tris[j-1]		, yris[j-1]		);
 		k2 = odesys(tris[j-1] + h / 2.	, yris[j-1] + k1*h / 2.	);
 		k3 = odesys(tris[j-1] + h / 2.	, yris[j-1] + k2*h / 2.	);
-		k4 = odesys(tris[j-1] + h		, yris[j-1] + k3*h		);
+		k4 = odesys(tris[j-1] + h	, yris[j-1] + k3*h	);
 
 		yris[j] = yris[j-1] + (k1 + 2 * k2 + 2 * k3 + k4) / 6 * h;
 		tris[j] = tris[j-1] + h;
