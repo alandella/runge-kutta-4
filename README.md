@@ -1,6 +1,6 @@
 # runge-kutta-4
 
-Explicit 4th order Runge-Kutta solver for scalar and vector ODEs, built in C++ and C compliant.
+Explicit 4th order Runge-Kutta solver for scalar and vector ODEs, C and C++ compliant.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ To implement the solver, a standard C/C++ IDE and compiler needs to be installed
 TODO
 
 ```
-Example
+TODO
 ```
 
 ## Running the tests
@@ -38,11 +38,11 @@ Contributing and redistributing the code is free!
 
 ## Authors
 
-* **Andrea Giuseppe Landella** - *Initial work* - [alandella](https://github.com/alandella)
+* **Andrea Giuseppe Landella** - *Exam work* - [alandella](https://github.com/alandella)
 
 ## License
 
-This project is licensed under The GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/alandella/runge-kutta-4/blob/master/README.md) file for details.
+This project is licensed under The GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/alandella/runge-kutta-4/blob/master/LICENSE.md) file for details.
 
 ## Acknowledgments
 
