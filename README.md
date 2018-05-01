@@ -27,10 +27,10 @@ To implement the solver, a standard C/C++ IDE and compiler needs to be installed
 2. In such project, simply copy and paste the source files from /source/. Remember to paste the rk4solver.c or kr4solver.cpp file in the "resources" folder and all the rk4solver.h files in the "header" folder of the current project.
 
 3. Compile your project either in debug or release, your choice. The rk4main.c file is an example implementation of the solver. The solver's function set is called by:
-```
- #include"rk4solver.h"
-```
-and the rest is just declaration and definition of objective functions and solver parameters. The latter part is no different from any common MATLAB file when using odexx.
+  ```
+  #include"rk4solver.h"
+  ```
+  and the rest is just declaration and definition of objective functions and solver parameters. The latter part is no different from any common MATLAB file when using odexx.
 
 Once the code is compiled, you are good to go!
 
@@ -58,7 +58,7 @@ You may choose to modify and improve it to your liking. Possible improvements ma
 
 3. Expand to stiff systems. Does the Van der Pol oscillator test work here?
 
-But again, they are limited only by imagination.
+In fact, they are limited only by intuition and imagination.
 
 ## Authors
 
@@ -74,4 +74,4 @@ This project is licensed under The GNU General Public License v3.0 - see the [LI
 * Curiosity
 * Boredom
 
-The latter may imply the former two sometimes. Or vice versa, idk.
+The latter may imply the former two sometimes. Or vice versa?
