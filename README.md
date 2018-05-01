@@ -12,7 +12,7 @@ The key point is in the following functions:
 void rungekutta4()
 void rungekutta4_vec()
 ```
-As they are the "actual solver", with the closest syntax as MATLAB odexx. Some extras have been added as the integration step h, and the dimensionality of the problem.
+As they are the "actual solver", with the closest syntax as MATLAB odexx. Some extras have been added as the integration step h, and the dimensionality of the problem. The solver's architecture is based on dynamic allocation, which allows it to be faster than odexx in most cases (by tuning h).
 
 The solver yields a txt file with vector or matrix output, as it can be seen in the /tests/ folder.
 
