@@ -26,11 +26,13 @@ To implement the solver, a standard C/C++ IDE and compiler needs to be installed
 
 2. In such project, simply copy and paste the source files from /source/. Remember to paste the rk4solver.c or kr4solver.cpp file in the "resources" folder and all the rk4solver.h files in the "header" folder of the current project.
 
-3. Compile your project either in debug or release, your choice. The rk4main.c file is an example implementation of the solver. The solver's function set is called by:
-  ```
-  #include"rk4solver.h"
-  ```
-  and the rest is just declaration and definition of objective functions and solver parameters. The latter part is no different from any common MATLAB file when using odexx.
+3. Compile your project either in debug or release, your choice. The rk4main.c file is an example implementation of the solver. 
+
+The solver's function set is called by:
+```
+#include"rk4solver.h"
+```
+and the rest is just declaration and definition of objective functions and solver parameters. The latter part is no different from any common MATLAB file when using odexx.
 
 Once the code is compiled, you are good to go!
 
