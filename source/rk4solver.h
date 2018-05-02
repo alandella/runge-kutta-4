@@ -3,6 +3,10 @@
 
 	header file rk4solver
 */
+#include<stdio.h>
+#include<stdlib.h>
+#define _USE_MATH_DEFINES
+#include<math.h>
 
 //RK4 solver implementation for scalar systems
 void rungekutta4(double		odesys(double t, double y), 

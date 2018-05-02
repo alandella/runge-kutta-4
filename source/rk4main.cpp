@@ -14,11 +14,6 @@
 	other for the solver, which takes as input the system function's handle.
 
 */
-
-#include<stdio.h>
-#include<stdlib.h>
-#define _USE_MATH_DEFINES
-#include<math.h>
 #include"rk4solver.h"
 
 //ODE system function

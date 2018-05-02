@@ -1,7 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>
-#define _USE_MATH_DEFINES
-#include<math.h>
+/*
+	Andrea Landella
+
+	program file rk4solver
+*/
+#include"rk4solver.h"
 
 //RK4 solver implementation for scalar systems
 void rungekutta4(double odesys(double t, double y), double t0, double tf, double y0, double h, double* &tSOL, double* &ySOL) {
